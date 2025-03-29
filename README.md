@@ -331,19 +331,7 @@
 # Protótipo do Figma
 🔗[Clique aqui para visualizar o modelo do projeto](https://www.figma.com/design/hDo9erWlNFuP3vs8ZiT6Ic/API?m=auto&t=nKZ6A3GWMeeH2L9A-1)
 
-> **Imagens do protótipo**
-
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/d93c4c9b-66e8-492e-9107-48504054637d" width="500" />
-  <img src="https://github.com/user-attachments/assets/76e46bdd-0720-4d4f-ba11-490c2e8eb2c4" width="500" />
-</div>
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/1c269558-5816-472d-9fb1-9066d3344a58" width="500" />
-  <img src="https://github.com/user-attachments/assets/15daf29c-de15-400e-b814-d0fc992dfd6f" width="500" />
-  <img src="https://github.com/user-attachments/assets/17a0ca76-91f8-4c2e-b64a-723bda3b2c71" width="500" />
-</div>
+https://github.com/user-attachments/assets/28ca1c90-a0d0-4bd8-8c1a-a757d02f225a
 
 ---
 
