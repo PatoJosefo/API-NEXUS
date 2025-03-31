@@ -163,7 +163,7 @@
         <tr>
             <td style="border: 1px solid #ddd;">Sprint 1</td>
             <td style="border: 1px solid #ddd;">10/03/2025 - 30/03/2025</td>
-            <td style="border: 1px solid #ddd;">Em andamento</td>
+            <td style="border: 1px solid #ddd;">Concluído</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Sprint 2</td>
@@ -309,22 +309,43 @@
 
 # Registro de Atividade das Sprints 
 
-## Sprint 1 
-- [x] Criação do repositório do Github
-- [x] Criação do backlog do produto
+## Sprint 1
 - [x] Criação de um protótipo do Figma
-- [ ] Desenvolvimento de um gráfico de exportação de cada município
-- [ ] Desenvimento de um gráfico com as 5 maiores exportações de cada município
-- [ ] Desenvolvimento de uma lista de exportações dos municípios
-- [ ] Criação de um Figma funcional e responsivo
 
-<!-- ## Sprint 2
-- [ ] Tarefa não atribuída
-- [ ] Tarefa não atribuída
+- [x] Desenvolvimento de um gráfico de exportação de cada município
+      
+- [x] Desenvimento de um gráfico com as 5 maiores exportações de cada município
+      
+- [x] Desenvolvimento de uma lista de exportações dos municípios
+      
+- [x] Criação de um Figma funcional e responsivo
+
+
+
+## Sprint 2
+- [ ] Filtrar cargas dos municípios de SP (2019-2024)
+
+- [ ] Comparar desempenho comercial dos municípios
+
+- [ ] Exibir variações sazonais de oferta e demanda
+
+- [ ] Mapear principais fornecedores de SP
+
+
 
 ## Sprint 3
-- [ ] Tarefa não atribuída
-- [ ] Tarefa não atribuída -->
+- [ ] Identificar produtos mais exportados por município
+
+- [ ] Visualizar diversidade de produtos exportados
+
+- [ ] Exibir balança comercial de SP
+
+- [ ] Analisar riscos da dependência de mercados
+
+- [ ] Projeções de desempenho comercial futuro
+
+- [ ] Visualizar correção da inflação para análise econômica
+
 
 ---
 
