@@ -368,20 +368,7 @@ https://github.com/user-attachments/assets/28ca1c90-a0d0-4bd8-8c1a-a757d02f225a
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td style="border: 1px solid #ddd;">Scrum Master (SM)</td>
-            <td style="border: 1px solid #ddd;">Maria Fernanda de Oliveira Laboissiere</td>
-            <td style="border: 1px solid #ddd; text-align: center;">
-                <a href="https://github.com/mariaflbss" target="_blank">
-                    <img src="https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub Badge"/>
-                </a>
-                 <td style="border: 1px solid #ddd; text-align: center;">
-                <a href="https://www.linkedin.com/in/maria-fernanda-de-oliveira-laboissiere-25362b353" target="_blank">
-                    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-                </a>
-            </td>
-        </tr> 
-        <tr>
+ <tr>
             <td style="border: 1px solid #ddd;">Product Owner (PO)</td>
             <td style="border: 1px solid #ddd;">Rafael Guimarães da Silva Oliveira</td>
             <td style="border: 1px solid #ddd; text-align: center;">
@@ -403,19 +390,6 @@ https://github.com/user-attachments/assets/28ca1c90-a0d0-4bd8-8c1a-a757d02f225a
                 </a>
                  <td style="border: 1px solid #ddd; text-align: center;">
                 <a href="https://www.linkedin.com/in/giovanni-martins-216995356" target="_blank">
-                    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd;">Team Member</td>
-            <td style="border: 1px solid #ddd;">Heloisa Cardillo Lima</td>
-            <td style="border: 1px solid #ddd; text-align: center;">
-                <a href="https://github.com/heloisa-cardillo" target="_blank">
-                    <img src="https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub Badge"/>
-                </a>
-                 <td style="border: 1px solid #ddd; text-align: center;">
-                <a href="https://www.linkedin.com/in/heloisa-cardillo-lima" target="_blank">
                     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
                 </a>
             </td>
