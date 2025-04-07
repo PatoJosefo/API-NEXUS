@@ -168,7 +168,7 @@
         <tr>
             <td style="border: 1px solid #ddd;">Sprint 2</td>
             <td style="border: 1px solid #ddd;">07/04/2025 - 27/04/2025</td>
-            <td style="border: 1px solid #ddd;">Em expectativa</td>
+            <td style="border: 1px solid #ddd;">Em andamento</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Sprint 3</td>
@@ -211,13 +211,6 @@
             <td style="border: 1px solid #ddd; text-align: center;">1</td>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd;">Filtrar as cargas dos municípios de São Paulo entre os anos de 2019 até 2024</td>
-            <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de filtrar as cargas exportadas mensalmente entre os anos de 2019 a 2024 nos municípios de São Paulo, para ter mais conhecimento sobre as cargas exportadas entre esse período de tempo</td>
-            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
-            <td style="border: 1px solid #ddd; text-align: center;">13</td>
-            <td style="border: 1px solid #ddd; text-align: center;">2</td>
-        </tr>
-        <tr>
             <td style="border: 1px solid #ddd;">Criar um gráfico de exportação dos municípios de São Paulo</td>
             <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de um gráfico onde fosse possível visualizar os dados de exportação de cada município do estado de São Paulo, para ter mais conhecimento sobre as exportções municipais</td>
             <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
@@ -231,75 +224,82 @@
             <td style="border: 1px solid #ddd; text-align: center;">13</td>
             <td style="border: 1px solid #ddd; text-align: center;">1</td>
         </tr>
+               <tr>
+            <td style="border: 1px solid #ddd;">Filtrar as cargas dos municípios de São Paulo entre os anos de 2019 até 2024</td>
+            <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de filtrar as cargas exportadas mensalmente entre os anos de 2019 a 2024 nos municípios de São Paulo, para ter mais conhecimento sobre as cargas exportadas entre esse período de tempo</td>
+            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
+            <td style="border: 1px solid #ddd; text-align: center;">13</td>
+            <td style="border: 1px solid #ddd; text-align: center;">2</td>
+        </tr>
+               <tr>
+            <td style="border: 1px solid #ddd;">Mapeamento dos principais fornecedores de cada município de São Paulo</td>
+            <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de visualizar um mapa que apresente dados acerca dos principais fornecedores de cada município, para ter maior conhecimento sobre os maiores fornecedores do estado de São Paulo</td>
+            <td style="border: 1px solid #ddd; text-align: center;">Médio</td>
+            <td style="border: 1px solid #ddd; text-align: center;">13</td>
+            <td style="border: 1px solid #ddd; text-align: center;">2</td>
+        </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Comparar desempenho comercial de municípios</td>
             <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de comparar o desempenho comercial de cada município do estado de São Paulo, para ter maior conhecimento sobre as disparidades entre o mercado de cada município detalhadamente</td>
-            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
+            <td style="border: 1px solid #ddd; text-align: center;">Médio</td>
+            <td style="border: 1px solid #ddd; text-align: center;">8</td>
+            <td style="border: 1px solid #ddd; text-align: center;">2</td>
+        </tr>
+              <tr>
+            <td style="border: 1px solid #ddd;">Ferramenta de busca para filtrar cargas por código NCM e aplicar filtros</td>
+            <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de ter acesso a uma ferramenta de pesquisa onde fosse possível filtrar cargas mediante seus códigos NCM e aplicar filtros, para ter uma obtenção de informações facilitada</td>
+            <td style="border: 1px solid #ddd; text-align: center;">Médio</td>
+            <td style="border: 1px solid #ddd; text-align: center;">13</td>
+            <td style="border: 1px solid #ddd; text-align: center;">2</td>
+        </tr>
+                <tr>
+            <td style="border: 1px solid #ddd;">Exibir valores da balança comercial</td>
+            <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de visualizar os valores da balança comercial provenientes do estado de São Paulo, para ter maior conhecimento sobre as diferenças entre as exportações e importações</td>
+            <td style="border: 1px solid #ddd; text-align: center;">Médio</td>
+            <td style="border: 1px solid #ddd; text-align: center;">8</td>
+            <td style="border: 1px solid #ddd; text-align: center;">3</td>
+        </tr>
+              <tr>
+            <td style="border: 1px solid #ddd;">Exibir padrões de variações sazonais de oferta e demanda que afetam empresas</td>
+            <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de visualizar os padrões de variações sazonais de oferta e demanda que afetam empresas, para ter maior conhecimento sobre como as empresas são afetadas</td>
+            <td style="border: 1px solid #ddd; text-align: center;">Baixa</td>
             <td style="border: 1px solid #ddd; text-align: center;">8</td>
             <td style="border: 1px solid #ddd; text-align: center;">2</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Produtos mais exportados dos municípios do estado de São Paulo</td>
             <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de filtrar os produtos mais exportados provenientes de cada município do estado de São Paulo, para ter mais conhecimento sobre os produtos mais importantes para  o mercado de cada município</td>
-            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
+            <td style="border: 1px solid #ddd; text-align: center;">Baixa</td>
             <td style="border: 1px solid #ddd; text-align: center;">13</td>
             <td style="border: 1px solid #ddd; text-align: center;">3</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Diversidade de produtos exportados</td>
             <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de visualizar a diversidade de produtos exportados pelos municípios de São Paulo, para ter maior conhecimento sobre os produtos de cada município</td>
-            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
+            <td style="border: 1px solid #ddd; text-align: center;">Baixa</td>
             <td style="border: 1px solid #ddd; text-align: center;">8</td>
             <td style="border: 1px solid #ddd; text-align: center;">3</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd;">Exibir valores da balança comercial</td>
-            <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de visualizar os valores da balança comercial provenientes do estado de São Paulo, para ter maior conhecimento sobre as diferenças entre as exportações e importações</td>
-            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
-            <td style="border: 1px solid #ddd; text-align: center;">8</td>
-            <td style="border: 1px solid #ddd; text-align: center;">3</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd;">Exibir padrões de variações sazonais de oferta e demanda que afetam empresas</td>
-            <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de visualizar os padrões de variações sazonais de oferta e demanda que afetam empresas, para ter maior conhecimento sobre como as empresas são afetadas</td>
-            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
-            <td style="border: 1px solid #ddd; text-align: center;">8</td>
-            <td style="border: 1px solid #ddd; text-align: center;">2</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd;">Mapeamento dos principais fornecedores de cada município de São Paulo</td>
-            <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de visualizar um mapa que apresente dados acerca dos principais fornecedores de cada município, para ter maior conhecimento sobre os maiores fornecedores do estado de São Paulo</td>
-            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
-            <td style="border: 1px solid #ddd; text-align: center;">13</td>
-            <td style="border: 1px solid #ddd; text-align: center;">2</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Apresentar riscos ocasionais causados pela dependência de mercados específicos</td>
             <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de visualizar os riscos ocasionais causados pela dependência de mercados específicos, para compreender os riscos ocasionais</td>
-            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
+            <td style="border: 1px solid #ddd; text-align: center;">Baixa</td>
             <td style="border: 1px solid #ddd; text-align: center;">5</td>
             <td style="border: 1px solid #ddd; text-align: center;">3</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Criar projeções do desempenho comercial futuro de cada município de São Paulo</td>
             <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de visualizar projeções do desempenho comercial futuro de cada município, para entender melhor o comércio do estado de São Paulo</td>
-            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
+            <td style="border: 1px solid #ddd; text-align: center;">Baixa</td>
             <td style="border: 1px solid #ddd; text-align: center;">8</td>
             <td style="border: 1px solid #ddd; text-align: center;">3</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Correção da inflação</td>
             <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de visualizar a correção da inflação para análise de dados econômicos, para ter maior conhecimento sobre os ajustes para compensação da perda de valor da moeda</td>
-            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
+            <td style="border: 1px solid #ddd; text-align: center;">Baixa</td>
             <td style="border: 1px solid #ddd; text-align: center;">8</td>
             <td style="border: 1px solid #ddd; text-align: center;">3</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd;">Ferramenta de busca para filtrar cargas por código NCM e aplicar filtros</td>
-            <td style="border: 1px solid #ddd;">Eu, como usuário, gostaria de ter acesso a uma ferramenta de pesquisa onde fosse possível filtrar cargas mediante seus códigos NCM e aplicar filtros, para ter uma obtenção de informações facilitada</td>
-            <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
-            <td style="border: 1px solid #ddd; text-align: center;">13</td>
-            <td style="border: 1px solid #ddd; text-align: center;">2</td>
         </tr>
     </tbody>
 </table>
@@ -310,41 +310,41 @@
 # Registro de Atividade das Sprints 
 
 ## Sprint 1
-- [x] Criação de um protótipo do Figma
+* Criação de um protótipo do Figma
 
-- [x] Desenvolvimento de um gráfico de exportação de cada município
+* Desenvolvimento de um gráfico de exportação de cada município
       
-- [x] Desenvimento de um gráfico com as 5 maiores exportações de cada município
+* Desenvimento de um gráfico com as 5 maiores exportações de cada município
       
-- [x] Desenvolvimento de uma lista de exportações dos municípios
+* Desenvolvimento de uma lista de exportações dos municípios
       
-- [x] Criação de um Figma funcional e responsivo
+* Criação de um Figma funcional e responsivo
 
 
 
 ## Sprint 2
-- [ ] Filtrar cargas dos municípios de SP (2019-2024)
+* Filtrar cargas dos municípios de SP (2019-2024)
 
-- [ ] Comparar desempenho comercial dos municípios
+* Comparar desempenho comercial dos municípios
 
-- [ ] Exibir variações sazonais de oferta e demanda
+* Exibir variações sazonais de oferta e demanda
 
-- [ ] Mapear principais fornecedores de SP
+* Mapear principais fornecedores de SP
 
 
 
 ## Sprint 3
-- [ ] Identificar produtos mais exportados por município
+* Identificar produtos mais exportados por município
 
-- [ ] Visualizar diversidade de produtos exportados
+* Visualizar diversidade de produtos exportados
 
-- [ ] Exibir balança comercial de SP
+* Exibir balança comercial de SP
 
-- [ ] Analisar riscos da dependência de mercados
+* Analisar riscos da dependência de mercados
 
-- [ ] Projeções de desempenho comercial futuro
+* Projeções de desempenho comercial futuro
 
-- [ ] Visualizar correção da inflação para análise econômica
+* Visualizar correção da inflação para análise econômica
 
 
 ---
@@ -352,7 +352,8 @@
 # Protótipo do Figma
 🔗[Clique aqui para visualizar o modelo do projeto](https://www.figma.com/design/hDo9erWlNFuP3vs8ZiT6Ic/API?m=auto&t=nKZ6A3GWMeeH2L9A-1)
 
-https://github.com/user-attachments/assets/28ca1c90-a0d0-4bd8-8c1a-a757d02f225a
+
+https://github.com/user-attachments/assets/2844a41c-5863-488b-b098-23a118ffc3d2
 
 ---
 
