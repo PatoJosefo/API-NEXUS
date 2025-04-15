@@ -438,7 +438,7 @@ https://github.com/user-attachments/assets/2844a41c-5863-488b-b098-23a118ffc3d2
             <td style="border: 1px solid #ddd;">Team Member</td>
             <td style="border: 1px solid #ddd;">Vinicius Silva Moreira</td>
             <td style="border: 1px solid #ddd; text-align: center;">
-                <a href="https://github.com/vinismoreira" target="_blank">
+                <a href="https://github.com/Vinicius-Moreira" target="_blank">
                     <img src="https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub Badge"/>
                 </a>
                  <td style="border: 1px solid #ddd; text-align: center;">
