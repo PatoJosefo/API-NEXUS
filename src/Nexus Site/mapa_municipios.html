@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2b1920ed3164c11d827e0c8f717aa8d8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2b1920ed3164c11d827e0c8f717aa8d8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2b1920ed3164c11d827e0c8f717aa8d8 = L.map(
+                "map_2b1920ed3164c11d827e0c8f717aa8d8",
+                {
+                    center: [-23.5505, -46.6333],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d1d425ff2206d5b574f8435c19910402 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d1d425ff2206d5b574f8435c19910402.addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var marker_f8867a5a908c306d0bb7408dc79df61f = L.marker(
+                [-22.7392463, -47.3306032],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_7bb5e6bc7f3e381b6f9c09d39b52614a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e2b94d6d75b0f231b1213fb23c02ed64 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b14cc55f55c67a8b18b3e9633e6e5e88 = $(`<div id="html_b14cc55f55c67a8b18b3e9633e6e5e88" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> Americana<br>             <b>Principal Fornecedor:</b> Obras de metais preciosos<br>             <b>Valor Agregado:</b> R$85,160.80             </div>`)[0];
+                popup_e2b94d6d75b0f231b1213fb23c02ed64.setContent(html_b14cc55f55c67a8b18b3e9633e6e5e88);
+            
+        
+
+        marker_f8867a5a908c306d0bb7408dc79df61f.bindPopup(popup_e2b94d6d75b0f231b1213fb23c02ed64)
+        ;
+
+        
+    
+    
+            marker_f8867a5a908c306d0bb7408dc79df61f.bindTooltip(
+                `<div>
+                     Americana
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f8867a5a908c306d0bb7408dc79df61f.setIcon(icon_7bb5e6bc7f3e381b6f9c09d39b52614a);
+            
+    
+            var marker_e46304acb987c130e67422a70de65f81 = L.marker(
+                [-23.5112184, -46.8764612],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_5c0bd984b89ab52ee83d42a4273845e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a0cf52b0c2dd0a1db59fda7ffeb4bd1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5bd2a38d8b8f02d31a0f58f7b57fea42 = $(`<div id="html_5bd2a38d8b8f02d31a0f58f7b57fea42" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> Barueri<br>             <b>Principal Fornecedor:</b> Âmbar-cinzento, castóreo<br>             <b>Valor Agregado:</b> R$50,814.15             </div>`)[0];
+                popup_1a0cf52b0c2dd0a1db59fda7ffeb4bd1.setContent(html_5bd2a38d8b8f02d31a0f58f7b57fea42);
+            
+        
+
+        marker_e46304acb987c130e67422a70de65f81.bindPopup(popup_1a0cf52b0c2dd0a1db59fda7ffeb4bd1)
+        ;
+
+        
+    
+    
+            marker_e46304acb987c130e67422a70de65f81.bindTooltip(
+                `<div>
+                     Barueri
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e46304acb987c130e67422a70de65f81.setIcon(icon_5c0bd984b89ab52ee83d42a4273845e3);
+            
+    
+            var marker_85a0b5cbac09bb1ef3c6e1afc7fe9c6c = L.marker(
+                [-23.3644621, -46.7484765],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_0e3d12c93304dc238a95de421e515e84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b317325cf762dcd4c0df4660ddc6b93f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f50263b59050ed4a5815cd24a8b2ca38 = $(`<div id="html_f50263b59050ed4a5815cd24a8b2ca38" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> Caieiras<br>             <b>Principal Fornecedor:</b> Platina em formas brutas<br>             <b>Valor Agregado:</b> R$170,321.00             </div>`)[0];
+                popup_b317325cf762dcd4c0df4660ddc6b93f.setContent(html_f50263b59050ed4a5815cd24a8b2ca38);
+            
+        
+
+        marker_85a0b5cbac09bb1ef3c6e1afc7fe9c6c.bindPopup(popup_b317325cf762dcd4c0df4660ddc6b93f)
+        ;
+
+        
+    
+    
+            marker_85a0b5cbac09bb1ef3c6e1afc7fe9c6c.bindTooltip(
+                `<div>
+                     Caieiras
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_85a0b5cbac09bb1ef3c6e1afc7fe9c6c.setIcon(icon_0e3d12c93304dc238a95de421e515e84);
+            
+    
+            var marker_37c0aaa692cb0a161202dc533314d387 = L.marker(
+                [-23.603889, -46.918889],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_1d64cf3f3e507484c22205f34b25df1a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81fada1a864481a1c1d7ea60fcb8a915 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_68f98aeb9d34dc9c2dc078c887495537 = $(`<div id="html_68f98aeb9d34dc9c2dc078c887495537" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> Cotia<br>             <b>Principal Fornecedor:</b> Helicópteros e drones<br>             <b>Valor Agregado:</b> R$260,000.00             </div>`)[0];
+                popup_81fada1a864481a1c1d7ea60fcb8a915.setContent(html_68f98aeb9d34dc9c2dc078c887495537);
+            
+        
+
+        marker_37c0aaa692cb0a161202dc533314d387.bindPopup(popup_81fada1a864481a1c1d7ea60fcb8a915)
+        ;
+
+        
+    
+    
+            marker_37c0aaa692cb0a161202dc533314d387.bindTooltip(
+                `<div>
+                     Cotia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_37c0aaa692cb0a161202dc533314d387.setIcon(icon_1d64cf3f3e507484c22205f34b25df1a);
+            
+    
+            var marker_19b7211be2c5803d03c5a22ea7789810 = L.marker(
+                [-23.6866428, -46.6246935],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_d09421495b2240cb0291aee68a63211a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9595cfb3ed6fc8ae5911baae00cd7dd9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66633cd6c48781ec4fc94a7a75cf5250 = $(`<div id="html_66633cd6c48781ec4fc94a7a75cf5250" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> Diadema<br>             <b>Principal Fornecedor:</b> Platina em formas brutas<br>             <b>Valor Agregado:</b> R$63,995.00             </div>`)[0];
+                popup_9595cfb3ed6fc8ae5911baae00cd7dd9.setContent(html_66633cd6c48781ec4fc94a7a75cf5250);
+            
+        
+
+        marker_19b7211be2c5803d03c5a22ea7789810.bindPopup(popup_9595cfb3ed6fc8ae5911baae00cd7dd9)
+        ;
+
+        
+    
+    
+            marker_19b7211be2c5803d03c5a22ea7789810.bindTooltip(
+                `<div>
+                     Diadema
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_19b7211be2c5803d03c5a22ea7789810.setIcon(icon_d09421495b2240cb0291aee68a63211a);
+            
+    
+            var marker_d3f22459b5b8b82e828a8902fda035a0 = L.marker(
+                [-21.8377536, -48.492853],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_8b6f55d5b9a9821fc986cafd3ae05d0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a9cd2eb7aa9d4f80a53ca9b23b36718 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_090e6f2aa11aa6f1b75c8dab89901697 = $(`<div id="html_090e6f2aa11aa6f1b75c8dab89901697" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> Gavião Peixoto<br>             <b>Principal Fornecedor:</b> Binóculos e lunetas astronômicas<br>             <b>Valor Agregado:</b> R$101,287.00             </div>`)[0];
+                popup_9a9cd2eb7aa9d4f80a53ca9b23b36718.setContent(html_090e6f2aa11aa6f1b75c8dab89901697);
+            
+        
+
+        marker_d3f22459b5b8b82e828a8902fda035a0.bindPopup(popup_9a9cd2eb7aa9d4f80a53ca9b23b36718)
+        ;
+
+        
+    
+    
+            marker_d3f22459b5b8b82e828a8902fda035a0.bindTooltip(
+                `<div>
+                     Gavião Peixoto
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d3f22459b5b8b82e828a8902fda035a0.setIcon(icon_8b6f55d5b9a9821fc986cafd3ae05d0d);
+            
+    
+            var marker_e993a18f13a4294036c870ff6426c71a = L.marker(
+                [-21.75623, -48.831903],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_6b573ad5b41e348f2742cd17b97c5e55 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04b2469b7dc65b9b7f0d87950e6f7abd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_44282279ac9fcb364d8a6af94eaca15c = $(`<div id="html_44282279ac9fcb364d8a6af94eaca15c" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> Ibitinga<br>             <b>Principal Fornecedor:</b> Produtos de origem animal<br>             <b>Valor Agregado:</b> R$125,889.50             </div>`)[0];
+                popup_04b2469b7dc65b9b7f0d87950e6f7abd.setContent(html_44282279ac9fcb364d8a6af94eaca15c);
+            
+        
+
+        marker_e993a18f13a4294036c870ff6426c71a.bindPopup(popup_04b2469b7dc65b9b7f0d87950e6f7abd)
+        ;
+
+        
+    
+    
+            marker_e993a18f13a4294036c870ff6426c71a.bindTooltip(
+                `<div>
+                     Ibitinga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e993a18f13a4294036c870ff6426c71a.setIcon(icon_6b573ad5b41e348f2742cd17b97c5e55);
+            
+    
+            var marker_06b67bb792fe498588bc2ebbcd64edab = L.marker(
+                [-23.54888, -46.933889],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_fdff394ab07e46a979a525a7ed6a3300 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12943b7d7046151aa8327ac6ff4f89ee = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_81eb909be4a4b4aad9d2f5befd49d7b1 = $(`<div id="html_81eb909be4a4b4aad9d2f5befd49d7b1" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> Itapevi<br>             <b>Principal Fornecedor:</b> Tiocompostos orgânicos<br>             <b>Valor Agregado:</b> R$278,200.00             </div>`)[0];
+                popup_12943b7d7046151aa8327ac6ff4f89ee.setContent(html_81eb909be4a4b4aad9d2f5befd49d7b1);
+            
+        
+
+        marker_06b67bb792fe498588bc2ebbcd64edab.bindPopup(popup_12943b7d7046151aa8327ac6ff4f89ee)
+        ;
+
+        
+    
+    
+            marker_06b67bb792fe498588bc2ebbcd64edab.bindTooltip(
+                `<div>
+                     Itapevi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_06b67bb792fe498588bc2ebbcd64edab.setIcon(icon_fdff394ab07e46a979a525a7ed6a3300);
+            
+    
+            var marker_335bb6fec8e1a03d9e3a01493ab7d88d = L.marker(
+                [-23.3050682, -45.9723075],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_5fdf6102ab1e2d10d32f7fbba28ec35d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a46959464f4b49104f9744cb49081e4e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bd8a72910d323e6980ffde44ca8464e0 = $(`<div id="html_bd8a72910d323e6980ffde44ca8464e0" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> Jacareí<br>             <b>Principal Fornecedor:</b> Circuitos integrados eletrônicos<br>             <b>Valor Agregado:</b> R$148,848.47             </div>`)[0];
+                popup_a46959464f4b49104f9744cb49081e4e.setContent(html_bd8a72910d323e6980ffde44ca8464e0);
+            
+        
+
+        marker_335bb6fec8e1a03d9e3a01493ab7d88d.bindPopup(popup_a46959464f4b49104f9744cb49081e4e)
+        ;
+
+        
+    
+    
+            marker_335bb6fec8e1a03d9e3a01493ab7d88d.bindTooltip(
+                `<div>
+                     Jacareí
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_335bb6fec8e1a03d9e3a01493ab7d88d.setIcon(icon_5fdf6102ab1e2d10d32f7fbba28ec35d);
+            
+    
+            var marker_951fd53fa2b20a0991c461b33e112624 = L.marker(
+                [-23.0949649, -46.7148565],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_3b7a2377b39397f8707f71462c656b55 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_40666dc0a0b81f65e94ec4eac3cbd2ea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a9e1df8bd5e73889664b56cf19d2c741 = $(`<div id="html_a9e1df8bd5e73889664b56cf19d2c741" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> Jarinu<br>             <b>Principal Fornecedor:</b> Elementos químicos radioativos<br>             <b>Valor Agregado:</b> R$129,710.00             </div>`)[0];
+                popup_40666dc0a0b81f65e94ec4eac3cbd2ea.setContent(html_a9e1df8bd5e73889664b56cf19d2c741);
+            
+        
+
+        marker_951fd53fa2b20a0991c461b33e112624.bindPopup(popup_40666dc0a0b81f65e94ec4eac3cbd2ea)
+        ;
+
+        
+    
+    
+            marker_951fd53fa2b20a0991c461b33e112624.bindTooltip(
+                `<div>
+                     Jarinu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_951fd53fa2b20a0991c461b33e112624.setIcon(icon_3b7a2377b39397f8707f71462c656b55);
+            
+    
+            var marker_24a85125d2e674dce4f20ab4aade01fb = L.marker(
+                [-22.4100108, -47.5603933],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_f5df38beec2faed328f06a30a602d1ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d187212ae9e157b9024303e1b9a9f20 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ea624383e85efb3ab0093144b6a98919 = $(`<div id="html_ea624383e85efb3ab0093144b6a98919" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> Rio Claro<br>             <b>Principal Fornecedor:</b> Platina em formas brutas<br>             <b>Valor Agregado:</b> R$110,908.67             </div>`)[0];
+                popup_9d187212ae9e157b9024303e1b9a9f20.setContent(html_ea624383e85efb3ab0093144b6a98919);
+            
+        
+
+        marker_24a85125d2e674dce4f20ab4aade01fb.bindPopup(popup_9d187212ae9e157b9024303e1b9a9f20)
+        ;
+
+        
+    
+    
+            marker_24a85125d2e674dce4f20ab4aade01fb.bindTooltip(
+                `<div>
+                     Rio Claro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_24a85125d2e674dce4f20ab4aade01fb.setIcon(icon_f5df38beec2faed328f06a30a602d1ec);
+            
+    
+            var marker_6d278f376cf6e3460df238a685d2adcd = L.marker(
+                [-23.5506507, -46.6333824],
+                {
+}
+            ).addTo(map_2b1920ed3164c11d827e0c8f717aa8d8);
+        
+    
+            var icon_a6c2e929c1cc0a8df2af3e771d150149 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_43f10a311432c2bf039968147f1b842f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f60000969725ae3b9a21c148efd058a9 = $(`<div id="html_f60000969725ae3b9a21c148efd058a9" style="width: 100.0%; height: 100.0%;">             <b>Município:</b> São Paulo<br>             <b>Principal Fornecedor:</b> Obras cartográficas<br>             <b>Valor Agregado:</b> R$175,000.00             </div>`)[0];
+                popup_43f10a311432c2bf039968147f1b842f.setContent(html_f60000969725ae3b9a21c148efd058a9);
+            
+        
+
+        marker_6d278f376cf6e3460df238a685d2adcd.bindPopup(popup_43f10a311432c2bf039968147f1b842f)
+        ;
+
+        
+    
+    
+            marker_6d278f376cf6e3460df238a685d2adcd.bindTooltip(
+                `<div>
+                     São Paulo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6d278f376cf6e3460df238a685d2adcd.setIcon(icon_a6c2e929c1cc0a8df2af3e771d150149);
+            
+</script>
+</html>

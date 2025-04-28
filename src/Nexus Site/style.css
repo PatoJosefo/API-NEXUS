@@ -1,0 +1,557 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Base dark mode */
+.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Transition for smooth effect */
+* {
+  transition: background-color 0.3s, color 0.1s;
+}
+
+/* Desativa transições apenas temporariamente no carregamento */
+.disable-transitions * {
+  transition: none !important;
+}
+
+/* Navbar */
+.navbar {
+  height: 56px; /* or whatever fixed height you want */
+  overflow: hidden; /* prevents tall content from expanding the navbar */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.452);
+}
+
+.nexus-logo {
+  height: 180px;
+  width: auto;
+}
+
+.navbar-gradient {
+  background: linear-gradient(to right, #002897, #0058ca, #0084ff) !important;
+}
+
+.dark-mode .navbar-gradient {
+  background: linear-gradient(to right, #002897, #0058ca, #0084ff) !important;
+}
+
+/* Sidebar styles */
+ul.sidebar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #e2e2e2;
+  position: fixed;
+  top: 56px; /* height of the navbar */
+  left: 0;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.452);
+}
+
+.dark-mode ul.sidebar {
+  background-color: #1e1e1e;
+}
+
+.button-search {
+  color:white;
+  background-color: #113fbe;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.dark-mode .button-search {
+  color:white;
+  background-color: #113fbe;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 80px; /* abaixo da navbar */
+  left: 0;
+  width: 200px;
+  height: calc(100vh - 80px);
+  background-color: #fff;
+  z-index: 999; /* garante que está acima do mapa */
+  overflow-y: auto;
+}
+
+ul.sidebar li a {
+  display: block;
+  color: #000000;
+  padding: 40px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.dark-mode ul.sidebar li a {
+  color: #f1f1f1;
+}
+
+ul.sidebar li a.active {
+  background-color: #2a75d7;
+  color: white;
+}
+
+.dark-mode ul.sidebar li a.active {
+  background-color: #2a75d7;
+  color: white;
+}
+
+ul.sidebar li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.dark-mode ul.sidebar li a:hover:not(.active) {
+  background-color: #444;
+  color: #ffffff;
+}
+
+main {
+  width: 100%;
+  height:100%;
+}
+
+/* Main content */
+.main-content {
+  margin-left: 200px; /* Same width as sidebar */
+  padding: 1rem;
+  margin-top: 56px; /* Same as navbar height */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-container > div {
+  background-color: #e2e2e2;
+  width: 30%;
+  height: 100px;
+  margin: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: clamp(12px, 2vw, 16px);
+  line-height: 1.3;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.452);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.dark-mode .flex-container > div {
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+}
+
+.flex-container2 {
+  padding-left: 202px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-container2 > div {
+  background-color: #e2e2e2;
+  width: 30%;
+  height: 100px;
+  margin: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: clamp(12px, 2vw, 16px);
+  line-height: 1.3;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.452);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.dark-mode .flex-container2 > div {
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+}
+
+
+.dropdown-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  margin-top: 2.5px;
+}
+
+.dropdown .btn {
+  width: 200px;
+  background: #005eda;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.452);
+}
+
+.dropdown-menu {
+  text-align: center;
+  min-width: 200px;
+}
+
+/* Dark mode support */
+.dark-mode .dropdown .btn {
+  background-color: #005eda;
+  border-color: #005eda;
+  color: black;
+}
+
+.dark-mode .dropdown-menu {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.dark-mode .dropdown-menu a.dropdown-item {
+  color: white;
+}
+
+.dark-mode .dropdown-menu a.dropdown-item:hover {
+  background-color: #444;
+}
+
+/* Buttons */
+.btn-primary {
+  border-radius: 10px;
+}
+
+.dark-mode .btn-primary {
+  background-color: #004eb4;
+  border-color: #0053be;
+  color: rgb(255, 255, 255);
+}
+
+/* Search input */
+input.form-control {
+  border-radius: 20px;
+}
+
+.dark-mode input.form-control {
+  background-color: #2c2c2c;
+  color: white;
+  border: 0px solid #555;
+}
+
+/* Optional: style toggle button */
+button {
+  border-radius: 50%;
+  padding: 0.4em 0.6em;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font-size: 1.9em;
+  cursor: pointer;
+}
+
+/* Default light theme icon color */
+.search-icon {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+/* Dark mode: turn the icon white */
+.dark-mode .search-icon {
+  color: white;
+}
+
+/* Make sure input group has rounded corners overall */
+.rounded-input-group {
+  border-radius: 25px;
+  overflow: hidden; /* Keeps the round look clean */
+}
+
+/* Make sure the text inside the input field is readable */
+input.form-control {
+  border-radius: 0; /* Let the group handle rounding */
+}
+
+/* Search icon base style */
+.search-icon {
+  background-color: transparen;
+  border: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+/* Dark mode search icon color */
+.dark-mode .search-icon {
+  color: white;
+  background-color:#555;
+  border: 1px solid #555;
+}
+
+/* Dark mode input styling */
+.dark-mode input.form-control {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+
+
+
+#municipios-page .flex-container > div {
+  width: 40%;
+  height: 70px;
+  margin: 30px;
+  font-size: clamp(14px, 2.5vw, 18px);
+}
+
+#municipios-page .flex-container h1 {
+  font-size: 1.2rem; /* ou 16px */
+}
+
+#municipios-page .flex-container h2 {
+  font-size: 1rem; /* ou 14px */
+}
+
+
+
+
+.texto-municipios {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+  
+.graf-municipios {
+   width: 60%;
+   height: auto; /* better to keep aspect ratio */
+   border-radius: 15px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45); 
+}
+  
+.custom-offset {
+  margin-left: 200px;
+}
+  
+
+#comparacao-page .flex-container > div {
+  width: 40%;
+  height: 70px;
+  margin: 20px;
+  font-size: clamp(14px, 2.5vw, 18px);
+}
+
+#comparacao-page .flex-container h1 {
+  font-size: 1.2rem; /* ou 16px */
+}
+
+#comparacao-page .flex-container h2 {
+  font-size: 1rem; /* ou 14px */
+}
+
+.graf-comparacao {
+  width: 60%;
+  height: auto; /* better to keep aspect ratio */
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45); 
+}
+
+.custom-offset {
+  margin-left: 200px;
+}
+
+
+
+#balanca-comercial-page .flex-container > div {
+  width: 40%;
+  height: 70px;
+  margin: 30px;
+  font-size: clamp(14px, 2.5vw, 18px);
+}
+
+#balanca-comercial-page .flex-container h1 {
+  font-size: 1.2rem; /* ou 16px */
+}
+
+#balanca-comercial-page .flex-container h2 {
+  font-size: 1rem; /* ou 14px */
+}
+
+
+
+
+
+.texto-cincomaiores {
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 15px;
+}
+
+.graf-cincomaiores {
+  width: 60%;
+  height: auto; /* better to keep aspect ratio */
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45); 
+}
+
+.custom-offset {
+  margin-left: 200px;
+}
+
+
+
+
+
+.texto-variacao {
+text-align: center;
+margin: auto 50px auto 250px;
+}
+
+.graf-sazonal {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 60%;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+}
+
+#variacao-page .flex-container2 > div {
+  width: 60%;
+  height: 70px;
+  margin: 20px;
+  margin-top:75.5px;
+  margin-bottom: 15px;
+  font-size: clamp(14px, 2.5vw, 18px);
+}
+
+#variacao-page .flex-container2 h1 {
+  font-size: 0.9rem;
+}
+
+#variacao-page .flex-container2 h2 {
+  font-size: 1rem;
+}
+
+
+.texto-comparacao {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+  }
+
+#comparacao-page .flex-container h1 {
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
+
+#comparacao-page .flex-container h2 {
+  font-size: 1rem;
+}
+
+/* Estilo para o container do mapa */
+.map-container {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Estilos para o botão de tema aprimorado */
+.theme-switcher {
+  position: relative;
+  width: 70px;
+  height: 34px;
+  border-radius: 50px;
+  background: var(--toggle-bg, #d6d6d6);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.theme-switcher:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .theme-switcher {
+  --toggle-bg: #333;
+}
+
+.theme-switcher-handle {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--toggle-handle, #fff);
+  transition: all 0.3s ease;
+  left: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .theme-switcher-handle {
+  left: calc(100% - 30px);
+  --toggle-handle: #fff;
+}
+
+.theme-icon {
+  width: 18px;
+  height: 18px;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.sun-icon {
+  color: var(--sun-color, #ff9800);
+}
+
+.moon-icon {
+  color: var(--moon-color, #666);
+}
+
+.dark-mode .sun-icon {
+  --sun-color: #aaa;
+}
+
+.dark-mode .moon-icon {
+  --moon-color: #4b32bd;
+}
