@@ -1,5 +1,4 @@
-# NEXUS
-
+# Projeto API - NEXUS
 
 ---
 
@@ -11,92 +10,36 @@
 * [Sprints](#sprints)
 * [Backlog](#backlog)
 * [Backlog do Produto](#backlog-do-produto)
-* [Registro de Atividade das Sprints ](#registro-de-atividade-das-sprints)
-* [Protótipo do Figma](#protótipo-do-figma)
+* [Funcionalidades e Registros das Sprints](#funcionalidades-e-registros-das-sprints)
 * [Autores](#autores)
 
 ---
 
 # Projeto
-> **Status do projeto**  
-> O objetivo deste projeto é desenvolver uma plataforma web que disponibilize informações sobre o desempenho dos municípios do Estado de São Paulo no comércio exterior, com base nos dados abertos do Ministério do Desenvolvimento, Indústria, Comércio e Serviços. Essa ferramenta fornecerá aos tomadores de decisão dados claros e acessíveis, permitindo a identificação de municípios que estejam em ascensão, estagnação ou declínio no mercado internacional.
+O objetivo deste projeto é desenvolver uma plataforma web que disponibilize informações sobre o desempenho dos municípios do Estado de São Paulo no comércio exterior, com base nos dados abertos do Ministério do Desenvolvimento, Indústria, Comércio e Serviços. Essa ferramenta fornecerá aos tomadores de decisão dados claros e acessíveis, permitindo a identificação de municípios que estejam em ascensão, estagnação ou declínio no mercado internacional.
 
 ---
 
 # Requisitos Funcionais e Não Funcionais
 🔗[Clique aqui para visualizar os requisitos do produto](https://docs.google.com/spreadsheets/d/1E7RuFhJ5bi-8nax7y87k7zGJ2A_NBVDxnHbVd0v4pT0/edit?gid=1719630846#gid=1719630846)
 
+## Requisitos Funcionais
+* Principais cargas movimentadas
+* Ranking por valor agregado de exportação e importação
+* Evolução histórica da  balança comercial.
+* Busca e filtros: Ferramentas que permitam buscar cargas por código NCM e aplicar filtros personalizados para análise específica
+* Painel de Estatísticas: Visualização gráfica interatica, apresentando a evolução da balança comercial dos municípios no período de 2019 a 2024
 
-<table style="width: 100%; border-collapse: collapse;">
-    <thead>
-        <tr>
-            <th style="border: 1px solid #ddd; text-align: center;">ID</th>
-            <th style="border: 1px solid #ddd;">Requisitos Funcionais</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RF01</td>
-            <td style="border: 1px solid #ddd;">Segmentação de Município: Apresenta informações detalhadas acerca de cada município do estado de São Paulo</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RF02</td>
-            <td style="border: 1px solid #ddd;">Busca e filtros: Ferramentas que permitam buscar cargas por código NCM e aplicar filtros personalizados para análise específica</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RF03</td>
-            <td style="border: 1px solid #ddd;">Painel de Estatísticas: Visualização gráfica interatica, apresentando a evolução da balança comercial dos municípios no período de 2019 a 2024</td>
-        </tr>
-    </tbody>
-        <td>
-        </td>
-        <td>
-        </td>
-    <thead>
-        <tr>
-            <th style="border: 1px solid #ddd; text-align: center;">ID</th>
-            <th style="border: 1px solid #ddd;">Requisitos Não Funcionais</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RNF01</td>
-            <td style="border: 1px solid #ddd;">Utilizar a ferramenta Google Colab para preparar a base de dados do projeto</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RNF02</td>
-            <td style="border: 1px solid #ddd;">O sistemma deve ser respossivo para todos os dispositivos.</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RNF03</td>
-            <td style="border: 1px solid #ddd;">O HTML5 deve ser utilizado para a arquitetura da informação do site</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RNF04</td>
-            <td style="border: 1px solid #ddd;">Utilizar o GIthub para ter controle sob a versão dos artefatos do projeto</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RNF05</td>
-            <td style="border: 1px solid #ddd;">Desenvolver o back-end utilizando a linguagem Python</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RNF06</td>
-            <td style="border: 1px solid #ddd;">O CSS3 deve ser utilizado para definição do layout e demais características de renderizações</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RNF07</td>
-            <td style="border: 1px solid #ddd;">Desenvolver uma interface interativa e de fácil compreensão</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RNF08</td>
-            <td style="border: 1px solid #ddd;">O MSQL/MariaDB devem ser utilizados como sistemas gerenciadores de banco de dados</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; text-align: center;">RNF09</td>
-            <td style="border: 1px solid #ddd;">Evitar a utilização de framework de mapeamento objeto-relacional para implementação de operações em banco de dados</td>
-        </tr>
-    </tbody>
-</table>
+## Requisitos Não Funcionais
+* Utilizar a ferramenta Google Colab para preparar a base de dados do projeto
+* O sistemma deve ser respossivo para todos os dispositivos.
+* O HTML5 deve ser utilizado para a arquitetura da informação do site
+* Utilizar o GIthub para ter controle sob a versão dos artefatos do projeto
+* Desenvolver o back-end utilizando a linguagem Python
+* O CSS3 deve ser utilizado para definição do layout e demais características de renderizações
+* Desenvolver uma interface interativa e de fácil compreensão
+* O MSQL/MariaDB devem ser utilizados como sistemas gerenciadores de banco de dados
+* Evitar a utilização de framework de mapeamento objeto-relacional para implementação de operações em banco de dados
 
 ---
 
@@ -168,7 +111,7 @@
         <tr>
             <td style="border: 1px solid #ddd;">Sprint 2</td>
             <td style="border: 1px solid #ddd;">07/04/2025 - 27/04/2025</td>
-            <td style="border: 1px solid #ddd;">Em andamento</td>
+            <td style="border: 1px solid #ddd;">Concluído</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Sprint 3</td>
@@ -177,11 +120,50 @@
         </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Feira de Soluções</td>
-            <td style="border: 1px solid #ddd;">29/06/2025</td>
+            <td style="border: 1px solid #ddd;">17/06/2025</td>
             <td style="border: 1px solid #ddd;">Em expectativa</td>
         </tr>
     </tbody>
 </table>    
+
+## Sprint 1 ✅
+* Criação de um protótipo do Figma
+
+* Desenvolvimento de um gráfico de exportação de cada município
+      
+* Desenvimento de um gráfico com as 5 maiores exportações de cada município
+      
+* Desenvolvimento de uma lista de exportações dos municípios
+      
+* Criação de um Figma funcional e responsivo
+
+
+
+## Sprint 2 ✅
+* Estruturar a primeira versão do HTML do site
+
+* Comparar desempenho comercial entre os municípios de São Paulo
+
+* Exibir padrões de variações sazonais de oferta e demanda que afetam empresas
+
+* Mapear os principais fornecedores de cada município do Estado de São Paulo
+
+* Criar uma ferramenta de busca para filtrar cargas por código NCM e aplicar filtros
+
+
+
+## Sprint 3
+* Identificar produtos mais exportados por município
+
+* Visualizar diversidade de produtos exportados
+
+* Exibir balança comercial de SP
+
+* Analisar riscos da dependência de mercados
+
+* Projeções de desempenho comercial futuro
+
+* Visualizar correção da inflação para análise econômica
 
 ---
 
@@ -304,56 +286,18 @@
     </tbody>
 </table>
 
-
 ---
 
-# Registro de Atividade das Sprints 
+# Funcionalidades e Registros das Sprints
 
-## Sprint 1
-* Criação de um protótipo do Figma
-
-* Desenvolvimento de um gráfico de exportação de cada município
-      
-* Desenvimento de um gráfico com as 5 maiores exportações de cada município
-      
-* Desenvolvimento de uma lista de exportações dos municípios
-      
-* Criação de um Figma funcional e responsivo
-
-
-
-## Sprint 2
-* Filtrar cargas dos municípios de SP (2019-2024)
-
-* Comparar desempenho comercial dos municípios
-
-* Exibir variações sazonais de oferta e demanda
-
-* Mapear principais fornecedores de SP
-
-
-
-## Sprint 3
-* Identificar produtos mais exportados por município
-
-* Visualizar diversidade de produtos exportados
-
-* Exibir balança comercial de SP
-
-* Analisar riscos da dependência de mercados
-
-* Projeções de desempenho comercial futuro
-
-* Visualizar correção da inflação para análise econômica
-
-
----
-
-# Protótipo do Figma
+### Sprint 1 - Protótipo do Figma
 🔗[Clique aqui para visualizar o modelo do projeto](https://www.figma.com/design/hDo9erWlNFuP3vs8ZiT6Ic/API?m=auto&t=nKZ6A3GWMeeH2L9A-1)
 
 
 https://github.com/user-attachments/assets/2844a41c-5863-488b-b098-23a118ffc3d2
+
+### Sprint 2 - HTML Incial do Site
+![ezgif-6428be32b56fc0](https://github.com/user-attachments/assets/79c2b637-3cd9-421b-8b0d-80c6bf64f039)
 
 ---
 
