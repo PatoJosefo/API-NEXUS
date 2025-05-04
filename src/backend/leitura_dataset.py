@@ -36,7 +36,7 @@ def __carregar_dados_mun():
   dados = {}
 
   for ano in range(2019, 2025):
-    dados[ano] = {'EXP': __leitura_arq_mun('EXP', ano, __path), 'IMP': __leitura_arq_mun('IMP', ano, __path)}
+    dados[ano] = {'EXP': __leitura_arq_mun('EXP', ano), 'IMP': __leitura_arq_mun('IMP', ano)}
 
   return dados
 
