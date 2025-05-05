@@ -1,4 +1,5 @@
 import pandas as pd
+from IPython.display import display, clear_output
 
 def realizar_analise(dados, df_municipios, df_ncm_sh, ano, atividade, tipo, mes_num, municipio):
     print(f"Parâmetros Selecionados:")
